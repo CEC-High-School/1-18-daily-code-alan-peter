@@ -1,1 +1,12 @@
-//write a program that prints a corny joke or pun to the console window :D
+#include <iostream>
+using namespace std;
+int input;
+int main() {
+	cout << "Enter a number" << endl;
+	cin >> input;
+	for (int a = 0; a < input; a++) {
+		for (int z = 0; z < input; z++)
+			cout << "$";
+		cout << endl;
+	}
+}
